@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="custom.css">
+
+</head>
+    
+</body>
+</html>
+
+
+<body>
+    <div class="main">
+
+        <!-- Main Box -->
+        <div class ="box">
+            <span id ="pass-box">New Password</span>
+
+            <!-- first row - password length input --->
+            <div class="row">
+                <div class="left">
+                    Password Length
+                </div>
+                <div class="right">
+                    <input type="number" name="" id="total-char" max="30" min="2" value="10" />
+                </div>
+            </div>
+                
+            <!-- second row - uppercase checkbox--->
+            <div class="row">
+                <label for="upper-case">
+                    <div class="left">
+                        Contains Uppercase
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="upper-case" checked />
+                </div>
+            </div>
+
+            <!-- third row - lowercase checkbox --->
+            <div class="row">
+                <label for="lower-case">
+                    <div class="left">
+                        Contains Lowercase
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="lower-case" />
+                </div>
+            </div>
+
+            <!-- fourth row - numbers checkbox --->
+            <div class="row">
+                <label for="numbers">
+                    <div class="left">
+                        Contains Numbers
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="numbers" checked />
+                </div>
+            </div>
+
+            <!-- fifth row - symbols checkbox --->
+            <div class="row">
+                <label for="symbols">
+                    <div class="left">
+                        Contains Symbols
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="symbols" checked />
+                </div>
+            </div>
+
+            <!-- sixth row - Generate button --->
+            <div class="row">
+                <button id="btn">
+                    Generate
+                </button>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
